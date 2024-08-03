@@ -1,1 +1,6 @@
 data/*.csv
+env/
+catboost_info/
+model/
+archive/
+86_Score_Solution.py

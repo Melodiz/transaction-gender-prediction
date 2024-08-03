@@ -1,15 +1,55 @@
 # Gender Prediction Model
 
-This repository contains the groundwork for a machine learning model designed to predict the gender of a client based on their transaction history. The data used for training the model was provided by Sber during one of their hackathons.
-
 ## Project Overview
+The Gender Prediction Model project aims to develop a machine learning model that can accurately predict the gender of a client using their transaction data. The project includes data preparation and analysis, model tuning, and evaluation metrics.
 
-The goal of this project is to develop a model that can accurately predict the gender of a client using their transaction data. The repository includes:
+## Getting Started
+To start working on this project, follow these steps:
 
-- **Data Preparation and Analysis**: Initial exploration and preprocessing of the transaction data.
-- **Model Tuning**: Code for tuning the model's hyperparameters can be found in `model/Tuning.ipynb`.
-- **Evaluation Metrics**: Detailed rules and metrics for evaluating the model's performance are documented in `data/gender_project.ipynb`.
+1. Clone the repository:
+    ```sh
+    git clone git@github.com:Melodiz/transaction-gender-prediction.git
+    ```
+2. Navigate to the project directory:
+    ```sh
+    cd Gender_transaction_base
+    ```
+3. Install the required dependencies:
+    ```sh
+    pip install -r requirements.txt
+    ```
+4. Download the [data](https://www.kaggle.com/datasets/okunevda/hsexsber) from Kaggle
+5. Leave the unpacked data in a folder named `data` in the root of the repository.
 
-## Current Status
+## Project Structure
+The project's directory structure is as follows:
 
-The solution is currently under development and the model has not been fully implemented yet. The notebooks provided contain the initial steps and methodologies planned for the project.
+```
+Gender_transaction_base/
+├── LICENSE
+├── README.md
+├── gender_by_transaction.ipynb
+├── requirements.txt
+└── data/
+    ├── train.csv
+    ├── test.csv
+    ├── mcc_codes.csv
+    ├── transactions.csv
+    ├── trans_types.csv
+    └── test_sample_submission.csv
+```
+## Dependencies
+- numpy
+- pandas
+- matplotlib
+- seaborn
+- catboost
+- scikit-learn
+- xgboost
+- lightgbm
+- nltk
+- gensim
+- @jupyter-widgets/base
+- jquery
+- lodash
+- plotly.js-dist-min
