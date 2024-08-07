@@ -1,3 +1,4 @@
+
 # Gender Prediction Model
 
 ## Project Overview
@@ -38,6 +39,7 @@ Gender_transaction_base/
     ├── trans_types.csv
     └── test_sample_submission.csv
 ```
+
 ## Dependencies
 - numpy
 - pandas
@@ -53,3 +55,6 @@ Gender_transaction_base/
 - jquery
 - lodash
 - plotly.js-dist-min
+
+## Project Result
+The best score with k-fold cross-validation is 0.845 (ROC AUC).
